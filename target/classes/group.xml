@@ -9,7 +9,6 @@
             <!--<class name="com.test.testng.groups.GroupOnClass3"/>-->
 
         <!--</classes>-->
-
     <!--</test>-->
     <test name="groupOnlyStu">
         <groups>

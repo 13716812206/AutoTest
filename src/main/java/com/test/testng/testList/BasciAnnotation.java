@@ -1,10 +1,10 @@
-package com.test.testng;
+package com.test.testng.testList;
 
 import org.testng.annotations.*;
 
 public class BasciAnnotation {
 
-    @Test
+    @Test(priority = 1)
     public void testCase1() {
         System.out.println("Test这是测试用例1");
 

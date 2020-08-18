@@ -1,9 +1,12 @@
-package com.test.testng.suite;
+package com.test.testng.testList;
 
 import org.testng.annotations.Test;
 
 public class IgnoreTest {
 
+    /*
+    忽略测试
+    * */
     @Test
     public void ignore1() {
         System.out.println("ignore1 执行");
