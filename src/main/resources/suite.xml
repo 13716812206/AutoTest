@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite>
+    <test name="login">
+
+        <classes>
+
+            <class name="com.test.testng.suite.SuiteConfig"/>
+            <class name="com.test.testng.suite.LoginTest"/>
+
+
+        </classes>
+
+    </test>
+    <test name="pay">
+
+        <classes>
+
+            <class name="com.test.testng.suite.SuiteConfig"/>
+            <class name="com.test.testng.suite.PayTest"/>
+
+
+        </classes>
+
+    </test>
+
+</suite>
