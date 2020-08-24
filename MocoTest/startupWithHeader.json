@@ -1,0 +1,38 @@
+[
+  {
+    "description": "这是一个带header信息的post请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "os": "android"
+      },
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "code": 200,
+        "status": "success"
+      }
+    }
+  },
+  {
+    "description": "这是一个带header信息的get请求",
+    "request": {
+      "uri": "/get/with/headers",
+      "method": "get",
+      "headers": {
+        "os": "android"
+      },
+      "queries": {
+        "name": "huhansan"
+      }
+    },
+    "response": {
+      "text": "成功了"
+    }
+  }
+]

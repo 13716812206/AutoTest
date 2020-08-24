@@ -1,0 +1,31 @@
+[
+  {
+    "description": "重定向",
+    "request": {
+      "uri": "/redirect"
+
+
+    },
+    "redirectTo": "http://www.baudu.com"
+  },
+  {
+    "description": "重定向到自己的网址上",
+    "request": {
+      "uri": "/redirect/topath"
+
+    },
+    "redirectTo":"/redirect/tonew"
+  },
+  {
+
+    "description": "这是被重定向到的请求",
+    "request": {
+      "uri": "/redirect/tonew"
+
+    },
+    "response": {
+      "text": "重定向成功了"
+    }
+  }
+
+]

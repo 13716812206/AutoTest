@@ -1,0 +1,29 @@
+[
+  {
+    "description": "这是一个post请求方式",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是我得一个post请求demo不带参数"
+    }
+  },
+  {
+    "description": "这是一个post请求方式",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是我得一个post请求demo带参数"
+    }
+
+
+  }
+
+]
