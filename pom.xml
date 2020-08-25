@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ExtentReportDemo</module>
-        <module>MocoTest</module>
+        <module>HttpClientTest</module>
     </modules>
     <dependencies>
         <dependency>

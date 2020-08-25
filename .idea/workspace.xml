@@ -4,15 +4,15 @@
     <list default="true" id="e669dfaa-0986-4673-9c46-81b6b151ed28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MocoTest/getwithCookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/MocoTest/getwithCookie.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ExtentReportDemo/target/" />
     <ignored path="$PROJECT_DIR$/MocoTest/target/" />
+    <ignored path="$PROJECT_DIR$/HttpClientTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientTest/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClients.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4461">
+              <caret line="398" column="35" selection-start-line="398" selection-start-column="35" selection-end-line="398" selection-end-column="35" />
+              <folding>
+                <element signature="e#6971#6972#0" expanded="true" />
+                <element signature="e#7017#7018#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MocoTest/startup1.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,44 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MocoTest/startupGet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="72">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MocoTest/startupPost.json">
+        <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MocoTest/startupWithHeader.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MocoTest/startupWithRedirect.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MocoTest/getwithCookie.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -88,6 +138,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setResourceCDN</find>
+      <find>init</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/thread.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/parameter.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testng/testList/TimeOutTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ExtentReportDemo/src/main/java/com/extent/reports/ExtentReportsDemo.java" />
         <option value="$PROJECT_DIR$/ExtentReportDemo/pom.xml" />
         <option value="$PROJECT_DIR$/ExtentReportDemo/src/main/java/com/extent/reports/ExtentTestNGIReporterListener.java" />
@@ -136,8 +186,16 @@
         <option value="$PROJECT_DIR$/MocoTest/getCookie.json" />
         <option value="$PROJECT_DIR$/MocoTest/startupPost.json" />
         <option value="$PROJECT_DIR$/MocoTest/startupWithRedirect.json" />
-        <option value="$PROJECT_DIR$/MocoTest/getwithCookie.json" />
         <option value="$PROJECT_DIR$/MocoTest/startupWithHeader.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java" />
+        <option value="$PROJECT_DIR$/HttpClientTest/src/main/resources/appication.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/HttpClientTest/pom.xml" />
+        <option value="$PROJECT_DIR$/MocoTest/getwithCookie.json" />
+        <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForPost.java" />
+        <option value="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java" />
       </list>
     </option>
   </component>
@@ -148,7 +206,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -162,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,54 +231,78 @@
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReportDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="MocoTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598270271247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598360668770" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.proportion" value="0.16113281" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -244,48 +327,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml">
-    <configuration name="D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGDemo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExtentReportDemo/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/hexindai/AutoTest/src/main/resources/parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/parameter.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/hexindai/AutoTest/src/main/resources/thread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/thread.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeOutTest.timeoutSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
+  <component name="RunManager" selected="TestNG.MyCookiesForGet.testGetCookies">
+    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testng.testList.*" />
+          <option name="PATTERN" value="com.test.httpclient.cookie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.testng.testList" />
-      <option name="MAIN_CLASS_NAME" value="com.test.testng.testList.TimeOutTest" />
-      <option name="METHOD_NAME" value="timeoutSuccess" />
+      <option name="PACKAGE_NAME" value="com.test.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.cookie.MyCookiesForGet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.httpclient.cookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.cookie.MyCookiesForGet" />
+      <option name="METHOD_NAME" value="testGetCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -293,17 +363,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeOutTest.timeoutfail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
+    <configuration name="MyCookiesForGet.testGetCookies()" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testng.testList.*" />
+          <option name="PATTERN" value="com.test.httpclient.cookie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.testng.testList" />
-      <option name="MAIN_CLASS_NAME" value="com.test.testng.testList.TimeOutTest" />
-      <option name="METHOD_NAME" value="timeoutfail" />
+      <option name="PACKAGE_NAME" value="com.test.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.cookie.MyCookiesForGet" />
+      <option name="METHOD_NAME" value="testGetCookies()" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.httpclient.cookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.httpclient.cookie" />
+      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.cookie.MyCookiesForPost" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHttpClientDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.MyHttpClientDemo" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -313,11 +418,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.TimeOutTest.timeoutfail" />
-        <item itemvalue="TestNG.TimeOutTest.timeoutSuccess" />
-        <item itemvalue="TestNG.D:/hexindai/AutoTest/src/main/resources/parameter.xml" />
-        <item itemvalue="TestNG.D:/hexindai/AutoTest/src/main/resources/thread.xml" />
+        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
+        <item itemvalue="TestNG.MyCookiesForPost" />
+        <item itemvalue="TestNG.MyCookiesForGet" />
+        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies()" />
+        <item itemvalue="TestNG.MyHttpClientDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -332,50 +437,54 @@
       <option name="presentableId" value="Default" />
       <updated>1597735182832</updated>
       <workItem from="1597735186734" duration="25697000" />
-      <workItem from="1597994491933" duration="23817000" />
+      <workItem from="1597994491933" duration="28872000" />
+      <workItem from="1598342002685" duration="10859000" />
+      <workItem from="1598356052915" duration="433000" />
+      <workItem from="1598356541954" duration="3129000" />
+      <workItem from="1598359738510" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__hexindai_AutoTest_src_main_resources_thread_xml - 2020.08.18 at 20h 26m 17s.xml">
-      <configuration name="D:/hexindai/AutoTest/src/main/resources/thread.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 32m 06s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_src_main_resources_thread_xml - 2020.08.18 at 20h 36m 36s.xml">
-      <configuration name="D:/hexindai/AutoTest/src/main/resources/thread.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 34m 21s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_src_main_resources_parameter_xml - 2020.08.18 at 20h 36m 41s.xml">
-      <configuration name="D:/hexindai/AutoTest/src/main/resources/parameter.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 36m 39s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_src_main_resources_parameter_xml - 2020.08.18 at 20h 37m 04s.xml">
-      <configuration name="D:/hexindai/AutoTest/src/main/resources/parameter.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 37m 05s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TimeOutTest_timeoutSuccess - 2020.08.18 at 20h 41m 01s.xml">
-      <configuration name="TimeOutTest.timeoutSuccess" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 37m 32s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TimeOutTest_timeoutfail - 2020.08.18 at 20h 41m 23s.xml">
-      <configuration name="TimeOutTest.timeoutfail" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 39m 21s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_ExtentReportDemo_src_main_resources_testng_xml - 2020.08.21 at 14h 55m 18s.xml">
-      <configuration name="D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 40m 21s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_ExtentReportDemo_src_main_resources_testng_xml - 2020.08.21 at 14h 59m 46s.xml">
-      <configuration name="D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 45m 08s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_ExtentReportDemo_src_main_resources_testng_xml - 2020.08.21 at 15h 33m 02s.xml">
-      <configuration name="D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost - 2020.08.25 at 20h 47m 42s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__hexindai_AutoTest_ExtentReportDemo_src_main_resources_testng_xml - 2020.08.21 at 17h 13m 44s.xml">
-      <configuration name="D:/hexindai/AutoTest/ExtentReportDemo/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForGet_testGetCookies - 2020.08.25 at 20h 55m 45s.xml">
+      <configuration name="MyCookiesForGet.testGetCookies" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49514000" />
+    <option name="totallyTimeSpent" value="69976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,17 +493,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.42122185" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.42550912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30760986" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30760986" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.45659164" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.42979637" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.15755627" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,13 +521,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/BeforeClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/groups/GroupOnClass2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,20 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/group.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/multiThread/MultiThreadOnXml.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -602,31 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/thread.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/suite/SuiteConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -647,25 +716,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReportDemo/src/main/java/com/extent/reports/ExtentTestNGIReporterListener.java">
+    <entry file="file://$PROJECT_DIR$/MocoTest/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/MocoTest/getCookie.json" />
+    <entry file="file://$PROJECT_DIR$/MocoTest/startupPost.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="111" column="72" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6111#6124#0" expanded="true" />
-            <element signature="e#6125#6356#0" expanded="true" />
-            <element signature="e#6355#6356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/MocoTest/startupWithRedirect.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtentReportDemo/src/main/java/com/extent/reports/ExtentReportsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="242">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -673,17 +742,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/基本操作说明">
+    <entry file="file://$PROJECT_DIR$/ExtentReportDemo/src/main/java/com/extent/reports/ExtentTestNGIReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="252">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/getCookie.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/thread.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/group.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MocoTest/基本操作说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/BasicCookieStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MocoTest/startupWithHeader.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MocoTest/getwithCookie.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="7" selection-start-line="44" selection-start-column="14" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -696,36 +838,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MocoTest/startupGet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/startupPost.json">
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/getwithCookie.json">
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/startupWithRedirect.json">
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MocoTest/startupWithHeader.json">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="4461">
+          <caret line="398" column="35" selection-start-line="398" selection-start-column="35" selection-end-line="398" selection-end-column="35" />
+          <folding>
+            <element signature="e#6971#6972#0" expanded="true" />
+            <element signature="e#7017#7018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +965,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AutoTest</last-edited>
+          <last-edited>HttpClientTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

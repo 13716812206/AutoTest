@@ -1,4 +1,23 @@
 [
+
+  {
+    "description": "这是一个返回cookie",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "text": "恭喜你成功获取cookies",
+      "cookies": {
+        "login": "true"
+      }
+
+    }
+  },
+
+
+
+
   {
     "description": "这是带cookie的get请求",
     "request": {
@@ -6,9 +25,6 @@
       "method": "get",
       "cookies": {
         "login": "true"
-      },
-      "json": {
-        "name": "huhansan"
       }
     },
     "response": {
@@ -26,7 +42,7 @@
       "cookies": {
         "login": "true"
       },
-      "forms": {
+      "json": {
         "name": "huhansan",
         "age": "18"
       }
@@ -35,7 +51,7 @@
       "status": 200,
       "json": {
         "code": 200,
-        "name": "成功"
+        "name": "success"
       }
     }
   }
