@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MocoTest/getwithCookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/MocoTest/getwithCookie.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,6 +12,7 @@
     <ignored path="$PROJECT_DIR$/ExtentReportDemo/target/" />
     <ignored path="$PROJECT_DIR$/MocoTest/target/" />
     <ignored path="$PROJECT_DIR$/HttpClientTest/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +22,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HttpClientTest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/hello/SampleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java">
+        <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/Applicaiton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#92#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/com/test/server/MyGetMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,82 +73,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state relative-caret-position="538">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClients.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4461">
-              <caret line="398" column="35" selection-start-line="398" selection-start-column="35" selection-end-line="398" selection-end-column="35" />
-              <folding>
-                <element signature="e#6971#6972#0" expanded="true" />
-                <element signature="e#7017#7018#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MocoTest/startup1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MocoTest/startupGet.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -147,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testng/testng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testng/suite/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testng/suite/PayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testng/suite/SuiteConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/suite.xml" />
@@ -187,7 +141,6 @@
         <option value="$PROJECT_DIR$/MocoTest/startupPost.json" />
         <option value="$PROJECT_DIR$/MocoTest/startupWithRedirect.json" />
         <option value="$PROJECT_DIR$/MocoTest/startupWithHeader.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java" />
         <option value="$PROJECT_DIR$/HttpClientTest/src/main/resources/appication.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
@@ -196,6 +149,12 @@
         <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForPost.java" />
         <option value="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootTest/src/main/java/hello/SampleController.java" />
+        <option value="$PROJECT_DIR$/SpringBootTest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringBootTest/src/main/java/Applicaiton.java" />
+        <option value="$PROJECT_DIR$/SpringBootTest/src/main/java/com/test/server/MyGetMethod.java" />
       </list>
     </option>
   </component>
@@ -206,7 +165,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -220,7 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,27 +235,70 @@
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpClientTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="MocoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598360668770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598437771851" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -327,7 +329,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForGet.testGetCookies">
+  <component name="RunManager" selected="Spring Boot.Applicaiton">
+    <configuration name="SampleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.SampleController" />
+      <module name="SpringBootTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Applicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Applicaiton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
@@ -363,24 +385,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesForGet.testGetCookies()" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.httpclient.cookie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.httpclient.cookie" />
-      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.cookie.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetCookies()" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
@@ -398,31 +402,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHttpClientDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.httpclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="com.test.httpclient.MyHttpClientDemo" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Applicaiton" />
+        <item itemvalue="Application.SampleController" />
         <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
         <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies()" />
-        <item itemvalue="TestNG.MyHttpClientDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +427,8 @@
       <workItem from="1598342002685" duration="10859000" />
       <workItem from="1598356052915" duration="433000" />
       <workItem from="1598356541954" duration="3129000" />
-      <workItem from="1598359738510" duration="986000" />
+      <workItem from="1598359738510" duration="6865000" />
+      <workItem from="1598429692321" duration="5106000" />
     </task>
     <servers />
   </component>
@@ -478,22 +465,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69976000" />
+    <option name="totallyTimeSpent" value="80961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.42550912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.18327974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,7 +494,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.45659164" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.42979637" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.15755627" />
-      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,58 +505,13 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/groups/GroupOnClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/groups/GroupOnClass3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/groups/GroupOnMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/testDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testng/suite/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -801,24 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MocoTest/startupWithHeader.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -857,37 +788,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="1026">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4461">
-          <caret line="398" column="35" selection-start-line="398" selection-start-column="35" selection-end-line="398" selection-end-column="35" />
+        <state relative-caret-position="162">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/MyHttpClientDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
           <folding>
-            <element signature="e#6971#6972#0" expanded="true" />
-            <element signature="e#7017#7018#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -903,10 +833,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="398" column="35" selection-start-line="398" selection-start-column="35" selection-end-line="398" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/hello/SampleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/Applicaiton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/src/main/java/com/test/server/MyGetMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientTest/src/main/java/com/test/httpclient/cookie/MyCookiesForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -930,7 +922,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -965,7 +957,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HttpClientTest</last-edited>
+          <last-edited>SpringBootTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
