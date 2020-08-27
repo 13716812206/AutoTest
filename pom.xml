@@ -18,6 +18,9 @@
         <module>HttpClientTest</module>
         <module>SpringBootTest</module>
     </modules>
+
+
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>

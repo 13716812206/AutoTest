@@ -17,7 +17,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HttpClientTest" options="-parameters" />
       <module name="SpringBootTest" options="-parameters" />
+      <module name="TestNGDemo" options="-parameters" />
     </option>
   </component>
 </project>

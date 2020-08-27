@@ -1,12 +1,14 @@
 package com.test.server;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.json.JSONObject;
+import org.springframework.web.bind.annotation.*;
+import org.testng.annotations.Test;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 @RestController
@@ -19,9 +21,9 @@ public class MyGetMethod {
 
         return "恭喜你获得Cookies成功";
     }
+
     /**
      * 要求客户端携带cookies访问
-     *
      */
     @RequestMapping(value = ("/get/with/cookies"), method = RequestMethod.GET)
 
@@ -42,5 +44,34 @@ public class MyGetMethod {
 
     }
 
+
+    /**
+     * 开发一个需要携带参数才能访问的geu请求
+     */
+    @RequestMapping(value = "/getwithParameter", method = RequestMethod.GET)
+    public Map<String, Integer> getList(@RequestParam Integer start, @RequestParam Integer end) {
+
+
+        Map<String, Integer> list = new HashMap<>();
+        list.put("鞋", 300);
+        list.put("零食", 111);
+        list.put("衣服", 1111);
+        return list;
+    }
+
+
+    /**
+     * 第二种携带参数访问的get请求
+     */
+    @RequestMapping(value = "/getWithParameter/{number}/{numbers}")
+    public Map<String, Integer> getListSecond(@PathVariable String number, @PathVariable String numbers) {
+
+
+        Map<String, Integer> list = new HashMap<>();
+        list.put("鞋2", 300);
+        list.put("零食2", 111);
+        list.put("衣服2", 1111);
+        return list;
+    }
 
 }
