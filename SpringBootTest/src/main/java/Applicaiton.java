@@ -3,7 +3,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.test.server")
+@ComponentScan("com.test")
 public class Applicaiton {
 
     public static void main(String[] args) {
