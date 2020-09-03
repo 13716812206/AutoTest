@@ -17,6 +17,7 @@
         <module>ExtentReportDemo</module>
         <module>HttpClientTest</module>
         <module>SpringBootTest</module>
+        <module>MyBatisTest</module>
     </modules>
 
 

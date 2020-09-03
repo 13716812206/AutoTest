@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HttpClientTest" />
+        <module name="MyBatisTest" />
         <module name="SpringBootTest" />
         <module name="TestNGDemo" />
       </profile>
@@ -18,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HttpClientTest" options="-parameters" />
+      <module name="MyBatisTest" options="-parameters" />
       <module name="SpringBootTest" options="-parameters" />
       <module name="TestNGDemo" options="-parameters" />
     </option>
