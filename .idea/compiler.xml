@@ -11,6 +11,7 @@
         <module name="MyBatisTest" />
         <module name="SpringBootTest" />
         <module name="TestNGDemo" />
+        <module name="UserTestDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="MyBatisTest" options="-parameters" />
       <module name="SpringBootTest" options="-parameters" />
       <module name="TestNGDemo" options="-parameters" />
+      <module name="UserTestDemo" options="-parameters" />
     </option>
   </component>
 </project>

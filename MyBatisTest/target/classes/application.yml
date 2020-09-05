@@ -1,21 +1,19 @@
 server:
   port: 8888
 
-logging:
-  file: mylog.log
-  path: logs
+#logging:
+#  config: classpath:logback.xml
 
 spring:
   application:
     name: myTest
   datasource:
-    driver-class-name: com.mysql.jdbc.Drievr
-    url: jdbc:mysql://127.0.0.1:3306/course
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/course
     username: root
-    password: 3306
+    password: 0316
 
-
-  mybatis:
+mybatis:
     type-aliases-packages: com.test.bean
     mapper-locations:
-      -mapper/*
+      - mapper/*

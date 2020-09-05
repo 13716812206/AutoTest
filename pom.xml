@@ -18,6 +18,7 @@
         <module>HttpClientTest</module>
         <module>SpringBootTest</module>
         <module>MyBatisTest</module>
+        <module>UserTestDemo</module>
     </modules>
 
 

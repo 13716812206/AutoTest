@@ -8,8 +8,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 import javax.annotation.PreDestroy;
 
-@SpringBootApplication
 @EnableScheduling
+@SpringBootApplication
 public class Application {
     private static ConfigurableApplicationContext context;
 
