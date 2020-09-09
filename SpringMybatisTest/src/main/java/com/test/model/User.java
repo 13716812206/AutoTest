@@ -3,16 +3,18 @@ package com.test.model;
 import lombok.Data;
 
 @Data
-public class UpdateUserInfoCase {
-
+public class User {
     private int id;
-    private int userId;
     private String userName;
+    private String passWord;
     private int age;
     private int sex;
     private int permission;
     private int isDelete;
-    private String expexted;
+
+
+
+
 
 
 }

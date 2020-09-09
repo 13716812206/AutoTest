@@ -19,6 +19,7 @@
         <module>SpringBootTest</module>
         <module>MyBatisTest</module>
         <module>UserTestDemo</module>
+        <module>SpringMybatisTest</module>
     </modules>
 
 

@@ -1,5 +1,8 @@
 package com.test.model;
 
+import lombok.Data;
+
+@Data
 public class GetUserListCase {
     private int id;
     private String userName;

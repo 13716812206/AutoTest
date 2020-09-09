@@ -10,6 +10,7 @@
         <module name="HttpClientTest" />
         <module name="MyBatisTest" />
         <module name="SpringBootTest" />
+        <module name="SpringMybatisTest" />
         <module name="TestNGDemo" />
         <module name="UserTestDemo" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="HttpClientTest" options="-parameters" />
       <module name="MyBatisTest" options="-parameters" />
       <module name="SpringBootTest" options="-parameters" />
+      <module name="SpringMybatisTest" options="-parameters" />
       <module name="TestNGDemo" options="-parameters" />
       <module name="UserTestDemo" options="-parameters" />
     </option>
