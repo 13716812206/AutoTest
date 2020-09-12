@@ -4,7 +4,6 @@ package com.test.controller;
 import com.test.model.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import javafx.scene.chart.ValueAxis;
 import lombok.extern.log4j.Log4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,7 +63,9 @@ public class UserManager {
     @ApiOperation(value = "获取用户信息接口", httpMethod = "POST")
     @RequestMapping(value = "/getUserInfo", method = RequestMethod.POST)
     public List<User> getUserInfo(HttpServletRequest request, @RequestBody User user) {
-        boolean x = verifyCookies(request   );
+        System.out.println(user.toString());
+        template.selectList("getUserInfo").toString();
+        boolean x = verifyCookies(request);
             if (x==true){
             List<User>  users=template.selectList("getUserInfo",user);
             log.info("getUserInfo获取到的用户数量是"+users.size());

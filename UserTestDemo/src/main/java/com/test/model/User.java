@@ -8,10 +8,10 @@ public class User {
     private int id;
     private String userName;
     private String passWord;
-    private int age;
-    private int sex;
-    private int permission;
-    private int isDelete;
+    private String age;
+    private String sex;
+    private String permission;
+    private String isDelete;
 
     @Override
     public String toString() {

@@ -18,13 +18,13 @@ public class SwaggerConfig {
     @Bean
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2)
-                .apiInfo(apiinfo())
+                .apiInfo(apiInfo())
                 .pathMapping("/")
                 .select()
                 .paths(PathSelectors.regex("/.*")).build();
     }
 
-    private ApiInfo apiinfo() {
+    private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("UserManager service API")
                  .contact(new Contact("yang","","13716812206@163.com"))
                 .description("this is UserManager service API")

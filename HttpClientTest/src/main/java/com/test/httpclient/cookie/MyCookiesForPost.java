@@ -83,6 +83,8 @@ public class MyCookiesForPost {
         System.out.println("================="+result);
         JSONObject json = new JSONObject(result);
 
+
+
         Assert.assertEquals("success", json.get("name"));
 
     }

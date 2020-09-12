@@ -5,7 +5,13 @@
     <select id="loginCase" parameterType="java.lang.Integer"
             resultType="com.test.model.LoginCase">
 
-            select  * from loginCase where id =#{id}
+
+
+
+
+                                            select  * from loginCase where id =#{id}
+
+
 
 
 
@@ -13,7 +19,11 @@
     <select id="addUserCase" parameterType="java.lang.Integer"
             resultType="com.test.model.AddUserCase">
 
-            select  * from addUserCase where id =#{id}
+
+
+                                            select  * from addUserCase where id =#{id}
+
+
 
 
 
@@ -21,7 +31,15 @@
     <select id="getUserInfoCase" parameterType="java.lang.Integer"
             resultType="com.test.model.GetUserInfoCase">
 
-            select  * from getUserInfoCase where id =#{id}
+
+
+
+
+                                            select  * from getUserInfoCase where id =#{id}
+
+
+
+
 
 
 
@@ -29,7 +47,15 @@
     <select id="getUserListCase" parameterType="java.lang.Integer"
             resultType="com.test.model.GetUserListCase">
 
-            select  * from getUserListCase where id =#{id}
+
+
+
+
+                                            select  * from getUserListCase where id =#{id}
+
+
+
+
 
 
 
@@ -37,11 +63,91 @@
     <select id="updateUserInfoCase" parameterType="java.lang.Integer"
             resultType="com.test.model.UpdateUserInfoCase">
 
-            select  * from updateUserInfoCase where id =#{id}
+
+
+
+
+                                            select  * from updateUserInfoCase where id =#{id}
+
+
+
+
 
 
 
     </select>
 
 
+    <!--获取用户信息-->
+    <select id="getUserInfo" parameterType="com.test.model.GetUserInfoCase" resultType="com.test.model.User">
+
+
+
+
+                                select * from user where id=#{userId}
+
+
+
+
+
+
+
+
+    </select>
+
+    <!--获取用户列表-->
+    <select id="getUserList" parameterType="com.test.model.GetUserListCase" resultType="com.test.model.User">
+        select * from user
+
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null != userName and ''!=userName">
+                AND userName=#{userName}
+            </if>
+            <if test="null != sex and ''!=sex">
+                AND sex=#{sex}
+            </if>
+            <if test="null != age and ''!=age">
+                AND age=#{age}
+            </if>
+        </trim>
+    </select>
+
+
+    <!--获取更新之后的数据-->
+    <select id="getUpdateUserInfo" parameterType="com.test.model.UpdateUserInfoCase" resultType="com.test.model.User">
+        select * from user
+        <trim prefix="WhERE" prefixOverrides="and">
+            <if test="null != userName and ''!=userName">
+                AND userName=#{userName}
+            </if>
+            <if test="null != age and ''!=age">
+                AND age=#{age}
+            </if>
+            <if test="null != sex and ''!=sex">
+                AND sex=#{sex}
+            </if>
+            <if test="null != permission and ''!=permission">
+                AND permission=#{permission}
+            </if>
+            <if test="null != isDelete and ''!=isDelete">
+                AND isDelete=#{isDelete}
+            </if>
+            And id=#{userId}
+        </trim>
+    </select>
+
+    <select id="addUser" parameterType="com.test.model.AddUserCase" resultType="com.test.model.User">
+
+
+                select * from user where
+                userName=#{userName}
+                and passWord=#{passWord}
+                and sex=#{sex}
+                and age=#{age}
+                and permission=#{permission}
+                and isDelete=#{isDelete}
+
+
+
+    </select>
 </mapper>
