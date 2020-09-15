@@ -1,19 +1,27 @@
 package com.test.httpclient.cookie;
 
 import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -70,6 +78,7 @@ public class MyCookiesForGet {
 
             }
 
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -78,7 +87,7 @@ public class MyCookiesForGet {
     }
 
     @Test(dependsOnMethods = {"testGetCookiesNew"})
-    public void testGetWithCookies() throws IOException {
+    public void testGetWithCookies() throws IOException, URISyntaxException {
 
         String uri = bundle.getString("test.getWithCookies");
         String testUrl = this.url + uri;
@@ -98,8 +107,15 @@ public class MyCookiesForGet {
         }
 
 
+        List<NameValuePair> params=new ArrayList<>();
+        params.add(new BasicNameValuePair("",""));
 
-
+        URI uris = new URIBuilder().setScheme("http")
+                .setHost("")
+                .setPath("")
+                .setPort(8888)
+                .setParameters(params)
+                .build();
 
 
 

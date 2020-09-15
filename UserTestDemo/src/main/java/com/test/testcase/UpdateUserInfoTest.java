@@ -18,7 +18,7 @@ import java.io.IOException;
 public class UpdateUserInfoTest {
 
     @Test(dependsOnGroups = "loginTrue", description = "修改用户信息")
-    public void updateUserInfo() throws IOException {
+    public void updateUserInfo() throws IOException, InterruptedException {
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
         UpdateUserInfoCase updateUserInfoCase = sqlSession.selectOne("updateUserInfoCase", 1);
         System.out.println(updateUserInfoCase.toString());
@@ -26,7 +26,10 @@ public class UpdateUserInfoTest {
 
 
         int result = getResult(updateUserInfoCase);
-        User user = sqlSession.selectOne(updateUserInfoCase.getExpexted(), updateUserInfoCase);
+        Thread.sleep(3000);
+        User user = sqlSession.selectOne(updateUserInfoCase.getExpected(), updateUserInfoCase);
+//        System.out.println(user.toString());
+        Thread.sleep(2000);
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
 
@@ -36,7 +39,7 @@ public class UpdateUserInfoTest {
     private int getResult(UpdateUserInfoCase updateUserInfoCase) throws IOException {
         HttpPost post = new HttpPost(TestConfig.updateUserInfoUrl);
         JSONObject param = new JSONObject();
-        param.put("id", updateUserInfoCase.getId());
+        param.put("id", updateUserInfoCase.getUserId());
         param.put("userName", updateUserInfoCase.getUserName());
         param.put("sex", updateUserInfoCase.getSex());
         param.put("age", updateUserInfoCase.getAge());
@@ -59,15 +62,18 @@ public class UpdateUserInfoTest {
     }
 
     @Test(dependsOnGroups = "loginTrue", description = "删除用户信息")
-    public void deleteUserInfo() throws IOException {
+    public void deleteUserInfo() throws IOException, InterruptedException {
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
-        UpdateUserInfoCase updateUserInfoCase = sqlSession.selectOne("updateUserInfo", 2);
+        UpdateUserInfoCase updateUserInfoCase = sqlSession.selectOne("updateUserInfoCase", 2);
         System.out.println(updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
 
 
         int result = getResult(updateUserInfoCase);
-        User user = sqlSession.selectOne(updateUserInfoCase.getExpexted(), updateUserInfoCase);
+        Thread.sleep(4000);
+
+        User user = sqlSession.selectOne(updateUserInfoCase.getExpected(), updateUserInfoCase);
+        Thread.sleep(2000);
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
 

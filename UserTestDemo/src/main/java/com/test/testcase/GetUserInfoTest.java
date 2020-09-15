@@ -1,6 +1,5 @@
 package com.test.testcase;
 
-import com.google.gson.JsonObject;
 import com.test.config.TestConfig;
 import com.test.model.GetUserInfoCase;
 import com.test.model.User;

@@ -8,7 +8,7 @@
         <package name="com.test.model"/>
     </typeAliases>
     <mappers>
-        <mapper resource="mapper/mysql.xml"/>
+        <mapper resource="mapper/*.xml"/>
     </mappers>
 
 

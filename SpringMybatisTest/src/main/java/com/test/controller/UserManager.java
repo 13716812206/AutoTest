@@ -4,7 +4,7 @@ package com.test.controller;
 import com.test.model.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import java.util.Objects;
 
-@Log4j
+@Slf4j
 @RestController
 @Api(value = "v1", description = "用户管理系统")
 @RequestMapping("v1")

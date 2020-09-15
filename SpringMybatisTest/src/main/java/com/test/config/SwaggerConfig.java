@@ -18,15 +18,16 @@ public class SwaggerConfig {
     @Bean
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2)
-                .apiInfo(apiInfo())
+                .apiInfo(apiInfo())   //apiInfo() 增加API相关信息
                 .pathMapping("/")
-                .select()
-                .paths(PathSelectors.regex("/.*")).build();
+                .select()    //通过select()函数返回一个ApiSelectorBuilder实例,用来控制哪些接口暴露给Swagger来展现
+                .paths(PathSelectors.regex("/.*"))  //匹配
+                .build();
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("UserManager service API")
-                 .contact(new Contact("yang","","13716812206@163.com"))
+                 .contact(new Contact("yang","","13716812206@163.com"))  //作者
                 .description("this is UserManager service API")
                 .version("1.0.0")
                 .build();

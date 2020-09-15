@@ -14,28 +14,24 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
 
 public class AddUserTest {
 
 
     @Test(dependsOnGroups = "loginTrue", description = "添加用户测试")
-
-
-    public void addUser() throws IOException {
+    public void addUser() throws IOException, InterruptedException {
 
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
-
         AddUserCase addUserCase = sqlSession.selectOne("addUserCase", 1);
         System.out.println(addUserCase.toString());
         System.out.println(TestConfig.addUserUrl);
 
 
         String result = getResult(addUserCase);
+        Thread.sleep(3000);
         User user=sqlSession.selectOne("addUser",addUserCase);
-        System.out.println(user.toString());
-        Assert.assertEquals(addUserCase.getExpexted(),result);
+//        System.out.println(user.toString());
+        Assert.assertEquals(addUserCase.getExpected(),result);
 
 
     }
@@ -51,7 +47,7 @@ public class AddUserTest {
         param.put("isDelete",addUserCase.getIsDelete());
 
         //设置头信息
-        httpPost.addHeader("Content-type","aaplication/json");
+        httpPost.addHeader("Content-type","application/json");
         httpPost.addHeader("Cookie",TestConfig.cookieStore.toString());
         StringEntity entity=new StringEntity(param.toString(),"utf-8");
         httpPost.setEntity(entity);
@@ -60,6 +56,7 @@ public class AddUserTest {
         String result;
         HttpResponse response=TestConfig.httpClient.execute(httpPost);
         result= EntityUtils.toString(response.getEntity(),"utf-8");
+        System.out.println(result+"===============================");
 
 
 

@@ -1,6 +1,5 @@
 package com.test.testcase;
 
-import com.google.gson.JsonObject;
 import com.test.config.TestConfig;
 import com.test.model.GetUserListCase;
 import com.test.model.User;
@@ -16,7 +15,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,16 +30,18 @@ public class GetUserListTest {
 
 
         JSONArray resultJson = getJsonResult(getUserListCase);
+        JSONArray jsonArray1=new JSONArray(resultJson.getString(0));
+        System.out.println("121321312313=========="+resultJson.toString());
         List<User> userList = sqlSession.selectList(getUserListCase.getExpected(), getUserListCase);
         //打印数据
         for (User u : userList) {
             System.out.println("获取的user:" + u.toString());
         }
         JSONArray userListJson=new JSONArray(userList);
-        Assert.assertEquals(userListJson.length(),resultJson.length());
-        for (int i = 0; i <resultJson.length() ; i++) {
-            JsonObject expect= (JsonObject) resultJson.get(i);
-            JsonObject actual= (JsonObject) userListJson.get(i);
+        Assert.assertEquals(userListJson.length(),jsonArray1.length());
+        for (int i = 0; i <jsonArray1.length() ; i++) {
+            JSONObject expect= (JSONObject) jsonArray1.get(i);
+            JSONObject actual= (JSONObject) userListJson.get(i);
             Assert.assertEquals(expect.toString(),actual.toString());
         }
 

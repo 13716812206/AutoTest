@@ -12,7 +12,7 @@ public class UpdateUserInfoCase {
     private String sex;
     private String permission;
     private String isDelete;
-    private String expexted;
+    private String expected;
 
 
 }
