@@ -1,0 +1,126 @@
+2020-09-14 20:21:18.373 [main] INFO  com.test.Application - Starting Application on EIT-20130101WFQ with PID 38608 (D:\hexindai\AutoTest\SpringMybatisTest\target\classes started by Administrator in D:\hexindai\AutoTest)
+2020-09-14 20:21:18.375 [main] INFO  com.test.Application - No active profile set, falling back to default profiles: default
+2020-09-14 20:21:19.233 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2020-09-14 20:21:19.381 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 20:21:19.579 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8889 (http)
+2020-09-14 20:21:19.586 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-14 20:21:19.586 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-09-14 20:21:19.587 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-09-14 20:21:19.588 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-09-14 20:21:19.588 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-14 20:21:19.588 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-14 20:21:19.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-09-14 20:21:19.651 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-14 20:21:19.652 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1222 ms
+2020-09-14 20:21:20.126 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-14 20:21:20.257 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-14 20:21:20.352 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-14 20:21:20.376 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-14 20:21:20.389 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-14 20:21:20.411 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-14 20:21:20.575 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8889 (http) with context path ''
+2020-09-14 20:21:20.578 [main] INFO  com.test.Application - Started Application in 2.642 seconds (JVM running for 3.346)
+2020-09-14 20:21:53.611 [http-nio-8889-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-14 20:21:53.611 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-14 20:21:53.616 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-14 20:21:53.671 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-14 20:21:53.821 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-14 20:21:53.941 [http-nio-8889-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [[]] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-14 20:28:48.500 [main] INFO  com.test.Application - Starting Application on EIT-20130101WFQ with PID 38852 (D:\hexindai\AutoTest\SpringMybatisTest\target\classes started by Administrator in D:\hexindai\AutoTest)
+2020-09-14 20:28:48.502 [main] INFO  com.test.Application - No active profile set, falling back to default profiles: default
+2020-09-14 20:28:49.382 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2020-09-14 20:28:49.529 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 20:28:49.728 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8889 (http)
+2020-09-14 20:28:49.735 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-14 20:28:49.736 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-09-14 20:28:49.737 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-09-14 20:28:49.737 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-09-14 20:28:49.738 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-14 20:28:49.738 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-14 20:28:49.741 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-09-14 20:28:49.803 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-14 20:28:49.803 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1250 ms
+2020-09-14 20:28:50.266 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-14 20:28:50.400 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-14 20:28:50.490 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-14 20:28:50.515 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-14 20:28:50.526 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-14 20:28:50.548 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-14 20:28:50.707 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8889 (http) with context path ''
+2020-09-14 20:28:50.709 [main] INFO  com.test.Application - Started Application in 2.59 seconds (JVM running for 3.303)
+2020-09-14 20:29:31.698 [http-nio-8889-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-14 20:29:31.698 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-14 20:29:31.703 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-14 20:29:31.760 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-14 20:29:31.915 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-14 20:29:31.937 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - 查询到的结果1
+2020-09-14 20:29:31.937 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - 查询到的登录的用户是zhangsan
+2020-09-14 20:29:31.997 [http-nio-8889-exec-3] INFO  com.test.controller.UserManager - 查询到的结果0
+2020-09-14 20:29:32.026 [http-nio-8889-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [[]] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-14 20:29:32.042 [http-nio-8889-exec-2] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-14 20:29:32.044 [http-nio-8889-exec-2] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-09-14 20:29:32.094 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-14 20:29:32.106 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - 添加用户的数量是：1
+2020-09-14 20:29:35.161 [http-nio-8889-exec-9] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-14 20:29:35.163 [http-nio-8889-exec-9] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是7
+2020-09-14 20:29:35.269 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-14 20:29:35.275 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - 更新的数据个数为：1
+2020-09-14 20:29:41.313 [http-nio-8889-exec-8] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-14 20:29:41.317 [http-nio-8889-exec-8] INFO  com.test.controller.UserManager - 更新的数据个数为：1
+2020-09-16 16:43:31.396 [main] INFO  com.test.Application - Starting Application on EIT-20130101WFQ with PID 42544 (D:\hexindai\AutoTest\SpringMybatisTest\target\classes started by Administrator in D:\hexindai\AutoTest)
+2020-09-16 16:43:31.398 [main] INFO  com.test.Application - No active profile set, falling back to default profiles: default
+2020-09-16 16:43:32.108 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2020-09-16 16:43:32.278 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 16:43:32.535 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8889 (http)
+2020-09-16 16:43:32.543 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-16 16:43:32.543 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-09-16 16:43:32.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-09-16 16:43:32.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-09-16 16:43:32.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-16 16:43:32.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-16 16:43:32.550 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-09-16 16:43:32.618 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-16 16:43:32.618 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1186 ms
+2020-09-16 16:43:33.078 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-16 16:43:33.219 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 16:43:33.318 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-16 16:43:33.341 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-16 16:43:33.354 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-16 16:43:33.377 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-16 16:43:33.538 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8889 (http) with context path ''
+2020-09-16 16:43:33.540 [main] INFO  com.test.Application - Started Application in 2.57 seconds (JVM running for 3.559)
+2020-09-16 16:43:50.670 [http-nio-8889-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16 16:43:50.671 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-16 16:43:50.677 [http-nio-8889-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-09-16 16:43:50.735 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-16 16:43:50.895 [http-nio-8889-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-16 16:43:50.917 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - 查询到的结果1
+2020-09-16 16:43:50.917 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - 查询到的登录的用户是zhangsan
+2020-09-16 16:43:50.988 [http-nio-8889-exec-2] INFO  com.test.controller.UserManager - 查询到的结果0
+2020-09-16 16:43:51.028 [http-nio-8889-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [[]] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-16 16:43:51.049 [http-nio-8889-exec-3] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:43:51.051 [http-nio-8889-exec-3] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-09-16 16:43:51.151 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:43:51.154 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - 添加用户的数量是：1
+2020-09-16 16:43:54.231 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:43:54.232 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是8
+2020-09-16 16:43:54.309 [http-nio-8889-exec-6] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:43:54.315 [http-nio-8889-exec-6] INFO  com.test.controller.UserManager - 更新的数据个数为：1
+2020-09-16 16:44:00.393 [http-nio-8889-exec-7] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:44:00.409 [http-nio-8889-exec-7] INFO  com.test.controller.UserManager - 更新的数据个数为：1
+2020-09-16 16:46:19.721 [http-nio-8889-exec-9] INFO  com.test.controller.UserManager - 查询到的结果1
+2020-09-16 16:46:19.721 [http-nio-8889-exec-9] INFO  com.test.controller.UserManager - 查询到的登录的用户是zhangsan
+2020-09-16 16:46:19.772 [http-nio-8889-exec-10] INFO  com.test.controller.UserManager - 查询到的结果0
+2020-09-16 16:46:19.819 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:46:19.820 [http-nio-8889-exec-1] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-09-16 16:46:19.869 [http-nio-8889-exec-2] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:46:19.873 [http-nio-8889-exec-2] INFO  com.test.controller.UserManager - 添加用户的数量是：1
+2020-09-16 16:46:22.926 [http-nio-8889-exec-3] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:46:22.928 [http-nio-8889-exec-3] INFO  com.test.controller.UserManager - getUserInfo获取到的用户数量是4
+2020-09-16 16:46:23.042 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:46:23.049 [http-nio-8889-exec-4] INFO  com.test.controller.UserManager - 更新的数据个数为：1
+2020-09-16 16:46:29.122 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - cookies验证通过
+2020-09-16 16:46:29.127 [http-nio-8889-exec-5] INFO  com.test.controller.UserManager - 更新的数据个数为：1

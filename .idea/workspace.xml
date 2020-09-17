@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e669dfaa-0986-4673-9c46-81b6b151ed28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/com/test/httpclient/cookie/MyCookiesForGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/com/test/httpclient/cookie/MyCookiesForGet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/com/test/httpclient/cookie/MyCookiesForPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/com/test/httpclient/cookie/MyCookiesForPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMybatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMybatisTest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTestDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/UpdateUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/UpdateUserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/target/classes/META-INF/UserTestDemo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/GetUserListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/GetUserListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/UpdateUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/target/classes/com/test/testcase/UpdateUserInfoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTestDemo/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -115,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UserTestDemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="81" />
+            <state relative-caret-position="455">
+              <caret line="72" column="59" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -124,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringMybatisTest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="990">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -134,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/UpdateUserInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,9 +218,9 @@
         <option value="$PROJECT_DIR$/UserTestDemo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/GetUserListTest.java" />
         <option value="$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/AddUserTest.java" />
-        <option value="$PROJECT_DIR$/UserTestDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMybatisTest/pom.xml" />
         <option value="$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/UpdateUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/UserTestDemo/pom.xml" />
       </list>
     </option>
   </component>
@@ -294,12 +286,6 @@
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringMybatisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,59 +300,6 @@
               <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="UserTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -458,7 +391,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600314391381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600335605585" />
     <property name="last_opened_file_path" value="D:/moco/AutoTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -554,8 +487,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="TestNG.D:/hexindai/AutoTest/UserTestDemo/src/main/resources/testng.xml" />
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.Applicaiton" />
@@ -585,14 +518,11 @@
       <workItem from="1599119272746" duration="203000" />
       <workItem from="1599124417666" duration="17378000" />
       <workItem from="1599200853663" duration="6700000" />
-      <workItem from="1599208026063" duration="109174000" />
+      <workItem from="1599208026063" duration="111640000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__hexindai_AutoTest_UserTestDemo_src_main_resources_testng_xml - 2020.09.14 at 16h 55m 53s.xml">
-      <configuration name="D:/hexindai/AutoTest/UserTestDemo/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__hexindai_AutoTest_UserTestDemo_src_main_resources_testng_xml - 2020.09.14 at 16h 59m 10s.xml">
       <configuration name="D:/hexindai/AutoTest/UserTestDemo/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -620,12 +550,16 @@
     <history-entry file="D__hexindai_AutoTest_UserTestDemo_src_main_resources_testng_xml - 2020.09.14 at 20h 29m 46s.xml">
       <configuration name="D:/hexindai/AutoTest/UserTestDemo/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__hexindai_AutoTest_UserTestDemo_src_main_resources_testng_xml - 2020.09.17 at 17h 38m 47s.xml">
+      <configuration name="D:/hexindai/AutoTest/UserTestDemo/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238265000" />
+    <option name="totallyTimeSpent" value="240731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75958705" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" sideWeight="0.24041298" side_tool="true" weight="0.1977612" />
@@ -638,7 +572,7 @@
       <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6497868" visible="true" weight="0.21329047" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6497868" visible="true" weight="0.24973205" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.24008575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1044,9 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1067,24 +998,27 @@
     <entry file="file://$PROJECT_DIR$/UserTestDemo/src/main/java/com/test/testcase/UpdateUserInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringMybatisTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="990">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UserTestDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="81" />
+        <state relative-caret-position="455">
+          <caret line="72" column="59" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
         </state>
       </provider>
     </entry>
