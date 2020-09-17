@@ -1,0 +1,6 @@
+Applicaiton.class
+com\test\bean\User.class
+com\test\config\SwaggerConfig.class
+com\test\server\MypostMethod.class
+com\test\server\MyGetMethod.class
+hello\SampleController.class

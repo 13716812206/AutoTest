@@ -1,0 +1,4 @@
+com\test\model\User.class
+com\test\controller\UserManager.class
+com\test\config\SwaggerConfig.class
+com\test\Application.class

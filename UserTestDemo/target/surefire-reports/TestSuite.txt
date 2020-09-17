@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.168 sec <<< FAILURE! - in TestSuite
+updateUserInfo(com.test.testcase.UpdateUserInfoTest)  Time elapsed: 5.082 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at com.test.testcase.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:33)
+
