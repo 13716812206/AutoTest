@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/selectMapper.xml" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e669dfaa-0986-4673-9c46-81b6b151ed28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTestDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserTestDemo/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e669dfaa-0986-4673-9c46-81b6b151ed28" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ExtentReportDemo/target/" />
@@ -42,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UserTestDemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="445">
+              <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -398,7 +395,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600344868533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600345914873" />
     <property name="last_opened_file_path" value="D:/moco/AutoTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -525,7 +522,7 @@
       <workItem from="1599119272746" duration="203000" />
       <workItem from="1599124417666" duration="17378000" />
       <workItem from="1599200853663" duration="6700000" />
-      <workItem from="1599208026063" duration="114707000" />
+      <workItem from="1599208026063" duration="115405000" />
     </task>
     <servers />
   </component>
@@ -562,13 +559,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243798000" />
+    <option name="totallyTimeSpent" value="244496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75958705" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75958705" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" sideWeight="0.24041298" side_tool="true" weight="0.1977612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,7 +576,7 @@
       <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6497868" visible="true" weight="0.03215434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6497868" visible="true" weight="0.08360129" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.24008575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1024,8 +1021,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UserTestDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="445">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
         </state>
       </provider>
     </entry>
