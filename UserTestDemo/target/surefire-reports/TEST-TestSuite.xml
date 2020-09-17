@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.168" tests="7" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="15.163" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -62,82 +62,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTrue" classname="com.test.testcase.LoginTest" time="0.543"/>
-  <testcase name="loginFalse" classname="com.test.testcase.LoginTest" time="0.036"/>
-  <testcase name="getUserInfo" classname="com.test.testcase.GetUserInfoTest" time="0.054"/>
-  <testcase name="addUser" classname="com.test.testcase.AddUserTest" time="3.047"/>
-  <testcase name="getUserList" classname="com.test.testcase.GetUserListTest" time="0.131"/>
+  <testcase name="loginTrue" classname="com.test.testcase.LoginTest" time="0.765"/>
+  <testcase name="loginFalse" classname="com.test.testcase.LoginTest" time="0.035"/>
+  <testcase name="getUserInfo" classname="com.test.testcase.GetUserInfoTest" time="0.063"/>
+  <testcase name="addUser" classname="com.test.testcase.AddUserTest" time="3.041"/>
+  <testcase name="getUserList" classname="com.test.testcase.GetUserListTest" time="0.14"/>
   <testcase name="deleteUserInfo" classname="com.test.testcase.UpdateUserInfoTest" time="6.048"/>
-  <testcase name="updateUserInfo" classname="com.test.testcase.UpdateUserInfoTest" time="5.082">
-    <failure message="expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: expected object to not be null
-	at com.test.testcase.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:33)
-</failure>
-    <system-out><![CDATA[16:46:29.068 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:46:29.068 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:46:29.068 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:46:29.068 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:46:29.101 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
-16:46:29.109 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 93199773.
-16:46:29.109 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@58e1d9d]
-16:46:29.109 [main] DEBUG com.test.testcase.updateUserInfoCase - ==>  Preparing: select * from updateUserInfoCase where id =?
-16:46:29.110 [main] DEBUG com.test.testcase.updateUserInfoCase - ==> Parameters: 1(Integer)
-16:46:29.111 [main] DEBUG com.test.testcase.updateUserInfoCase - <==      Total: 1
-UpdateUserInfoCase(id=1, userId=2, userName=haahahahahaha, age=null, sex=null, permission=null, isDelete=null, expected=getUpdateUserInfo)
-http://localhost:8889/v1/updateUserInfo
-16:46:29.111 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
-16:46:29.111 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: login][value: true][domain: localhost][path: /v1][expiry: null] match [localhost:8889/v1/updateUserInfo]
-16:46:29.111 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:46:29.112 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8889][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
-16:46:29.113 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8889][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-16:46:29.113 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
-16:46:29.113 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /v1/updateUserInfo HTTP/1.1
-16:46:29.113 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-16:46:29.113 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /v1/updateUserInfo HTTP/1.1
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> content-type: application/json
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: []
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 35
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8889
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: login=true
-16:46:29.113 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /v1/updateUserInfo HTTP/1.1[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "content-type: application/json[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: [][\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 35[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8889[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: login=true[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
-16:46:29.113 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"id":2,"userName":"haahahahahaha"}"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Wed, 16 Sep 2020 08:46:29 GMT[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "1[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "1[\r][\n]"
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Wed, 16 Sep 2020 08:46:29 GMT
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
-16:46:29.128 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
-16:46:29.129 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
-16:46:29.129 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
-16:46:29.129 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
-16:46:29.129 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8889] can be kept alive for 60.0 seconds
-16:46:29.129 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
-16:46:29.129 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8889][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-16:46:32.129 [main] DEBUG com.test.testcase.getUpdateUserInfo - ==>  Preparing: select * from user WhERE userName=? And id=?
-16:46:32.129 [main] DEBUG com.test.testcase.getUpdateUserInfo - ==> Parameters: haahahahahaha(String), 2(Integer)
-16:46:32.130 [main] DEBUG com.test.testcase.getUpdateUserInfo - <==      Total: 0
-]]></system-out>
-  </testcase>
+  <testcase name="updateUserInfo" classname="com.test.testcase.UpdateUserInfoTest" time="5.071"/>
 </testsuite>
