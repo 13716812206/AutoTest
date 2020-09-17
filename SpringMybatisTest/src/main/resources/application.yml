@@ -10,7 +10,7 @@ spring:
     name: userManager
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/course
+    url: jdbc:mysql://172.30.21.238:3306/course
     username: root
     password: 0316
 #type-aliases-package  可以理解成实体类包名，设置这个属性以后，在mapper文件中sql--parameterType就不用写全路径了
